@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1080px;
+    margin: auto;
+}
+
+.background {
+    width: 100%;
+    background-image: linear-gradient(to right, #040006, #62005f);
+    max-height: 850px;
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 40px 0;
+    margin-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+}
+
+h3 {
+    color: #fff;
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+
+}
+
+.list-item a {
+    text-decoration: none;
+    font-family: "Inter", serif;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.info a {
+    text-decoration: none;
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hero-text {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    gap: 20px;
+
+}
+
+.hero-text h4 {
+    color: #fd7452;
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.hero-text h2 {
+    font-family: "Inter", serif;
+    font-weight: 300;
+    font-size: 52px;
+}
+
+.hero-text span {
+    color: #fd7452;
+    font-family: "Inter", serif;
+    font-weight: 800;
+    font-size: 52px;
+}
+
+.hero-text p {
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.btn {
+    margin-top: 40px;
+}
+
+.button {
+    background-image: linear-gradient(to right, #ff5a37, #ff3778);
+    padding: 15px 30px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn a {
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    padding: 15px 40px;
+}
+
+.hero-img {
+    max-width: 550px;
+    position: relative;
+
+   
+}
+
+.img1 {
+    padding-top: 100px;
+    top: 30px;
+    left: 0;
+   
+
+}
+
+.img2 {
+    position: absolute;
+    top: -35%;
+    right: -20%;
+    z-index: -1;
+
+
+}
+
+.img3 {
+    position: absolute;
+    top: 0px;
+    left: 120px;
+}
+
+.img4 {
+    position: absolute;
+    top: 40px;
+    right: 150px;
+}
+
+.img5 {
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+.img6 {
+    position: absolute;
+    bottom: 20%;
+    left: 0px;
+}
+
+.img7 {
+    position: absolute;
+    top: 160px;
+    left: 30px;
+}
